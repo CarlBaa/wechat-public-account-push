@@ -1,32 +1,23 @@
 export const config = {
-  
-
-
- 
   APP_ID: "wx10bc3f4fca63e3db",
-
-  
   APP_SECRET: "036ebeb385ea9a83453a2c4e8e9d8280",
- 
   USERS: [
     {
-      // 想要发送的人的名字
-      name: "A",
+      name: "Carl",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "ox2Jg6YDb2JdKfA3EIw8Ugd3Tzvk",
+      
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "Cl5wGZYfMpFEfi-foYYXiM4KM3IyV_Rp-XO_XNL8Dks",
-      // 所在省份
+      useTemplateId: "9FL4DHp1oX_D8XIrAs_jFO27Kk2ClMEuiOHy15_MZyE",
+      
       province: "四川",
-      // 所在城市
-      city: "凉山",
-      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      city: "射洪",
       openUrl: "https://neumorphism.io/#926363"
     }, 
     {
-      name: "A", 
-      id: "ox2Jg6YDb2JdKfA3EIw8Ugd3Tzvk",
-      useTemplateId: "Cl5wGZYfMpFEfi-foYYXiM4KM3IyV_Rp-XO_XNL8Dks",
+      name: "木子", 
+      id: "",
+      useTemplateId: "9FL4DHp1oX_D8XIrAs_jFO27Kk2ClMEuiOHy15_MZyE",
       province: "四川",
       city: "凉山",
       openUrl: "https://neumorphism.io/#926363"
@@ -82,14 +73,12 @@ export const config = {
   /**
    * 重要节日，修改名字为对应需要显示的名字, data 仅填月日即可, 请严格按照示例填写
    * tpye必须填！ 只能 “生日” 和 “节日” 二选一!
-   * 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
-   * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "木子姐", "year": "1996", "date": "09-02"},
-    {"type": "节日", "name": "日", "year": "2020", "date": "09-03"},
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-    {"type": "节日", "name": "日", "year": "2021", "date": "09-01"},
+    {"type": "生日", "name": "木子", "year": 2002", "date": "10-10"},
+    {"type": "破壳日", "name": "我", "year": "2002", "date": "10-16"},
+//     {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
+//     {"type": "节日", "name": "日", "year": "2021", "date": "09-01"},
   ],
 
   /**
@@ -97,22 +86,21 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 2,
 
   /** 日期相关 */
 
-  /** 你现在可以随心增加你认为的所有的需要纪念的日子啦！
-    * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
+  /** 
     * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }} 
     * */
   CUSTOMIZED_DATE_LIST: [
-    // 在一起的日子
-    {"keyword": "love_day", date: "2015-05-01"},
+    // 一起的日子
+    {"keyword": "love_day", date: "2022-07-19"},
     // 结婚纪念日
-    {"keyword": "marry_day", date: "2020-01-04"},
+    {"keyword": "marry_day", date: "2022-07-19"},
 
     // sakana日
-    // {"keyword": "sakana_day", date: "2022-01-06"},
+    // {"keyword": "sakana_day", date: "2022-07-19"},
     // ... 
   ],
 
