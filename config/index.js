@@ -3,7 +3,7 @@ export const config = {
   APP_SECRET: "036ebeb385ea9a83453a2c4e8e9d8280",
   USERS: [
     {
-      name: "Carl",
+      name: "A",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "ox2Jg6YDb2JdKfA3EIw8Ugd3Tzvk",
       
@@ -77,8 +77,7 @@ export const config = {
   FESTIVALS: [
     {"type": "生日", "name": "木子", "year": 2002", "date": "10-10"},
     {"type": "破壳日", "name": "我", "year": "2002", "date": "10-16"},
-     {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-     {"type": "节日", "name": "日", "year": "2021", "date": "09-01"},
+
   ],
 
   /**
@@ -86,7 +85,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 2,
 
   /** 日期相关 */
 
