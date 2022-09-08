@@ -15,11 +15,11 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "ox2Jg6YDb2JdKfA3EIw8Ugd3Tzvk",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "Cl5wGZYfMpFEfi-foYYXiM4KM3IyV_Rp-XO_XNL8Dks",
+      useTemplateId: "	9FL4DHp1oX_D8XIrAs_jFO27Kk2ClMEuiOHy15_MZyE",
       // 所在省份
       province: "四川",
       // 所在城市
-      city: "遂宁",
+      city: "成都",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://neumorphism.io/#926363"
     }, 
@@ -75,7 +75,7 @@ export const config = {
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
   PROVINCE: "四川",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "凉山",
+  CITY: "遂宁",
 
   /** 重要节日相关 */
 
@@ -86,8 +86,8 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "木子", "year": "1996", "date": "10-10"},
-    {"type": "节日", "name": "日", "year": "2020", "date": "07-19"},
+    {"type": "生日", "name": "木子", "year": "2002", "date": "10-10"},
+    {"type": "生日", "name": "我", "year": "2002", "date": "10-16"},
 //     {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
 //     {"type": "节日", "name": "日", "year": "2021", "date": "09-01"},
   ],
