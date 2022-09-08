@@ -30,7 +30,7 @@ export const config = {
 
   CUSTOMIZED_DATE_LIST: [
     {"keyword": "love_day", date: "2022-07-19"},
-  ]
+  ],
   SLOT_LIST: [
     {"keyword": "lover_prattle", contents: [
       "上上签",
