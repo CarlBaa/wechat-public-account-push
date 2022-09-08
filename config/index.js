@@ -9,7 +9,7 @@ export const config = {
       useTemplateId: "a--2Cm8VWRRm-5EWKHOhUY3Vy9LKe4THTzidisqO888",
       province: "四川",
       city: "遂宁",
-      openUrl: "https://neumorphism.io/#926363"
+      openUrl: "https://neumorphism.io/#926363",
     },   
   ],
   
@@ -29,11 +29,8 @@ export const config = {
   /** 日期相关 */
 
   CUSTOMIZED_DATE_LIST: [
-    // 一起
     {"keyword": "love_day", date: "2022-07-19"},
-
-
-
+  ]
   SLOT_LIST: [
     {"keyword": "lover_prattle", contents: [
       "上上签",
