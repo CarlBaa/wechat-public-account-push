@@ -1,11 +1,5 @@
 export const config = {
-  
-
-
- 
   APP_ID: "wx10bc3f4fca63e3db",
-
-  
   APP_SECRET: "036ebeb385ea9a83453a2c4e8e9d8280",
  
   USERS: [
@@ -15,7 +9,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "ox2Jg6YDb2JdKfA3EIw8Ugd3Tzvk",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "m-yfmBWiokxjzrG4J5_IRzaTOiBFL_duMwGb00Lh17w",
+      useTemplateId: "-j-hu3-7vedctTOWrR8guQezF9asAMIOoodwFZ-a3eg",
       // 所在省份
       province: "四川",
       // 所在城市
@@ -25,8 +19,8 @@ export const config = {
     }, 
     {
       name: "", 
-      id: "ox2Jg6YDb2JdKfA3EIw8Ugd3Tzvk",
-      useTemplateId: "-j-hu3-7vedctTOWrR8guQezF9asAMIOoodwFZ-a3eg",
+      id: "",
+      useTemplateId: "",
       province: "四川",
       city: "凉山",
       openUrl: "https://neumorphism.io/#926363"
@@ -54,15 +48,15 @@ export const config = {
    */
 
   // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "zjV1glIuCXo4Csr23aXWEio1iP74sZJ7IQEES95lDsg6c4yOU",
+  CALLBACK_TEMPLATE_ID: "",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
     {
       // 一般都填自己
-      name: "A",
+      name: "",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ox2Jg6YDb2JdKfA3EIw8Ugd3Tzvk",
+      id: "",
     }, 
   ],
     
