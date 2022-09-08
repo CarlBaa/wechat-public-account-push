@@ -1,15 +1,21 @@
 export const config = {
   
 
+
+ 
+  APP_ID: "wx10bc3f4fca63e3db",
+
+  
+  APP_SECRET: "036ebeb385ea9a83453a2c4e8e9d8280",
  
   USERS: [
     {
       // 想要发送的人的名字
-      name: "gays0",
+      name: "A",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohxOO6VskY2v40Kuf5ywIZVRM3puXhk",
+      id: "ox2Jg6YDb2JdKfA3EIw8Ugd3Tzvk",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "Wue80GrtY1nAi5a4tam4FDxZF59WNx9pwcBc06LMpANnu8",
+      useTemplateId: "Cl5wGZYfMpFEfi-foYYXiM4KM3IyV_Rp-XO_XNL8Dks",
       // 所在省份
       province: "四川",
       // 所在城市
