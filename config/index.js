@@ -7,7 +7,9 @@ export const config = {
       name: "A",
       id: "ox2Jg6YDb2JdKfA3EIw8Ugd3Tzvk",
       useTemplateId: "a--2Cm8VWRRm-5EWKHOhUY3Vy9LKe4THTzidisqO888",
+      document.write("<br\>"),
       province: "四川",
+      document.write("<br\>"),
       city: "遂宁",
       openUrl: "https://neumorphism.io/#926363",
     },   
@@ -19,6 +21,7 @@ export const config = {
 
   /** 重要节日相关 */
   FESTIVALS: [
+    document.write("<br\>"),
     {"type": "生日", "name": "你", "year": "2002", "date": "10-10"},
     {"type": "生日", "name": "我", "year": "2002", "date": "10-16"},
   ],
@@ -29,6 +32,7 @@ export const config = {
   /** 日期相关 */
 
   CUSTOMIZED_DATE_LIST: [
+    document.write("<br\>"),
     {"keyword": "love_day", date: "2022-07-19"},
   ],
   SLOT_LIST: [
