@@ -15,7 +15,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "ox2Jg6YDb2JdKfA3EIw8Ugd3Tzvk",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "	9FL4DHp1oX_D8XIrAs_jFO27Kk2ClMEuiOHy15_MZyE",
+      useTemplateId: "-j-hu3-7vedctTOWrR8guQezF9asAMIOoodwFZ-a3eg",
       // 所在省份
       province: "四川",
       // 所在城市
@@ -26,7 +26,7 @@ export const config = {
     {
       name: "", 
       id: "ox2Jg6YDb2JdKfA3EIw8Ugd3Tzvk",
-      useTemplateId: "Cl5wGZYfMpFEfi-foYYXiM4KM3IyV_Rp-XO_XNL8Dks",
+      useTemplateId: "-j-hu3-7vedctTOWrR8guQezF9asAMIOoodwFZ-a3eg",
       province: "四川",
       city: "凉山",
       openUrl: "https://neumorphism.io/#926363"
@@ -88,8 +88,7 @@ export const config = {
   FESTIVALS: [
     {"type": "生日", "name": "木子", "year": "2002", "date": "10-10"},
     {"type": "生日", "name": "我", "year": "2002", "date": "10-16"},
-//     {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-//     {"type": "节日", "name": "日", "year": "2021", "date": "09-01"},
+
   ],
 
   /**
@@ -107,8 +106,9 @@ export const config = {
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
     {"keyword": "love_day", date: "2022-07-19"},
+    
     // 结婚纪念日
-    {"keyword": "marry_day", date: "2020-07-19"},
+//     {"keyword": "marry_day", date: "2020-07-19"},
 
     // sakana日
     // {"keyword": "sakana_day", date: "2022-01-06"},
