@@ -13,7 +13,7 @@ export const config = {
       // 所在省份
       province: "四川",
       // 所在城市
-      city: "成都",
+      city: "凉山",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://neumorphism.io/#926363"
     }, 
@@ -69,7 +69,7 @@ export const config = {
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
   PROVINCE: "四川",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "遂宁",
+  CITY: "成都",
 
   /** 重要节日相关 */
 
@@ -80,16 +80,18 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "木子", "year": "2002", "date": "10-10"},
+    {"type": "生日", "name": "木子姐", "year": "2002", "date": "10-10"},
     {"type": "生日", "name": "我", "year": "2002", "date": "10-16"},
-
+    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
+    {"type": "节日", "name": "日", "year": "2021", "date": "09-01"},
   ],
 
   /**
    * 限制重要节日的展示条目, 需要填写数字; 
-  
+   * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
+   * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 2,
 
   /** 日期相关 */
 
@@ -99,10 +101,9 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2022-07-19"},
-    
+    {"keyword": "love_day", date: "2015-05-01"},
     // 结婚纪念日
-//     {"keyword": "marry_day", date: "2020-07-19"},
+    {"keyword": "marry_day", date: "2020-01-04"},
 
     // sakana日
     // {"keyword": "sakana_day", date: "2022-01-06"},
@@ -111,7 +112,10 @@ export const config = {
 
   /** 插槽 */
 
-  
+  /** 你可以在这里写超多的你想显示的内容了！
+    * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
+    * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }} 
+    * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
     {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
