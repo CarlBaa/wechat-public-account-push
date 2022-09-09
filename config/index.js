@@ -34,7 +34,7 @@ export const config = {
       id: "ox2Jg6ZBEsJvWureFKZToZbiyh6Q",
       useTemplateId: "G9njnAUsoWHGBnpNSSl4EE2aCePYBzZRL9wROUVG-7Y",
       province: "四川",
-      city: "射洪",
+      city: "遂宁",
       openUrl: "https://neumorphism.io/#926363"
     }, 
   ],
