@@ -4,18 +4,18 @@ export const config = {
  
   USERS: [
     {
-      name: "A",
-      id: "ox2Jg6YDb2JdKfA3EIw8Ugd3Tzvk",
+      name: "LuzM__ew.",
+      id: "ox2Jg6aMvNbLrvmoWsqwyGJWurhU",
       useTemplateId: "EbDEJ4Hf48IJCvcY5k-R9Gb7YnqSZk-t-rDu50tNCow",
       province: "四川",
-      city: "遂宁",
+      city: "凉山",
       openUrl: "https://neumorphism.io/#926363",
     },   
   ],
   
   /** 默认地域 */
   PROVINCE: "四川",
-  CITY: "成都",
+  CITY: "凉山",
 
   /** 重要节日相关 */
   FESTIVALS: [
