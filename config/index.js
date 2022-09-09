@@ -26,7 +26,7 @@ export const config = {
       id: "ox2Jg6SoRpiGvuBZy-Bepy6yUt-c",
       useTemplateId: "XUC1BP9he3zEuY5_KUqTtqm-uTgYn6qPyzwFo1zbE00",
       province: "四川",
-      city: "会理",
+      city: "凉山",
       openUrl: "https://neumorphism.io/#926363"
     }, 
   ],
