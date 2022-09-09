@@ -6,7 +6,7 @@ export const config = {
     {
       name: "A",
       id: "ox2Jg6YDb2JdKfA3EIw8Ugd3Tzvk",
-      useTemplateId: "i4OTjiKn_7v9LwxHpgVltc1U18be4SNr6ejfPih6MPM",
+      useTemplateId: "skRvqReW3IScqz5RlzP6tVfj0Wog0nSxl8MBdB6dfTE",
       province: "四川",
       city: "遂宁",
       openUrl: "https://neumorphism.io/#926363",
