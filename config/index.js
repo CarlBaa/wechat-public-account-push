@@ -12,22 +12,21 @@ export const config = {
       openUrl: "https://neumorphism.io/#926363",
     },  
     
-    
     {
       name: "A", 
       id: "ox2Jg6YDb2JdKfA3EIw8Ugd3Tzvk",
       useTemplateId: "XUC1BP9he3zEuY5_KUqTtqm-uTgYn6qPyzwFo1zbE00",
       province: "四川",
-      city: "凉山",
+      city: "遂宁",
       openUrl: "https://neumorphism.io/#926363"
     }, 
     
      {
-      name: "dark ¥side", 
-      id: "ox2Jg6dHcLbZ9f3i2JGghq0f289c",
+      name: "小明👹", 
+      id: "ox2Jg6SoRpiGvuBZy-Bepy6yUt-c",
       useTemplateId: "XUC1BP9he3zEuY5_KUqTtqm-uTgYn6qPyzwFo1zbE00",
       province: "四川",
-      city: "内江",
+      city: "会理",
       openUrl: "https://neumorphism.io/#926363"
     }, 
   ],
